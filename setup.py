@@ -120,7 +120,6 @@ setup(
         "matplotlib",
         "torch",
         "torchvision",
-        "pytorch-msssim",
     ],
     extras_require=get_extra_requirements(),
     license="Apache-2",
