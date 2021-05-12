@@ -26,7 +26,7 @@ import PIL
 import PIL.Image as Image
 import torch
 
-from pytorch_msssim import ms_ssim
+from .pytorch_msssim import ms_ssim
 
 from compressai.transforms.functional import rgb2ycbcr, ycbcr2rgb
 
